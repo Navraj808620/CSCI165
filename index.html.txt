@@ -3,6 +3,6 @@
 <title>Home</title>
 </head>
 <body>
-Hi, my name is Navraj .
+Hi, my name is yourname .
 </body>
 </html>
