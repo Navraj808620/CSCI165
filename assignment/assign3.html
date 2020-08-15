@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="assign3.js"></script>
+  <style>
+    #addStyle {
+      background-color: #FFEC32;
+    }
+
+    #subStyle {
+      background-color: #56FF34;
+    }
+
+    #mulStyle {
+      background-color: #4D70FF;
+    }
+
+    #divStyle {
+      background-color:#FF0000;
+    }
+	
+body {
+  background-image: url('cal.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  </style>
+</head>
+
+
+<body>
+
+  <div>First operand:<input id="operand_1"> </input></div>
+  <div>Second operand:<input id="operand_2"> </input></div>
+  <button id="add_button"> + </button>
+  <button id="sub_button"> - </button>
+  <button id="mul_button"> * </button>
+  <button id="div_button"> / </button>
+  <div>Result: <span id="result"> </span></div>
+
+  <h2> History </h2>
+  <button id="show_button"> SHOW </button>
+  <button id="hide_button"> HIDE </button>
+  <button id="clear_button"> CLEAR</button>
+  <div id="history"> </div>
+
+
+
+
+</body>
+
+</html>

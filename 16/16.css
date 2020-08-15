@@ -1,0 +1,20 @@
+    div.out {
+      width: 40%;
+      background-color: #FF7921;
+      margin: 10px;
+      /* height: 140px; */
+      float: left;
+    }
+
+    div.in {
+      width: 50%;
+      height: 50%;
+      background-color: #FFBD76;
+      margin: 10px auto;
+    }
+
+    p {
+      line-height: 1em;
+      margin: 0;
+      padding: 0;
+    }
