@@ -1,10 +1,7 @@
-<html>
-
-<head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="assign3.js"></script>
-  <style>
-    #addStyle {
+<!DOCTYPE html>
+<html> 
+ <style>
+    #add {
       background-color: #FFEC32;
     }
 
@@ -26,29 +23,27 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-  </style>
-</head>
+  </style> 
+    <head>    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+        <script src="assign3.js"></script>  
+    </head>  
+    <body>    
+        <div>First operand:<input id="operand_1"></div>    
+        <div>Second operand:<input  id= "operand_2"></div> 
+        
+        <button id="add_button">+</button>
+        <button id="sub_button">-</button>   
+        <button id="mul_button">*</button>   
+        <button id="div_button">/</button>       
+        <div>Result: <span id="result"> </span></div>  
+        
+        <h2>History</h2>
+		<button id="show_button">Show</button>
+		<button id="hide_button">Hide</button>
+        <button id="clear_button">Clear</button>
+        <p id="history"></p>
 
-
-<body>
-
-  <div>First operand:<input id="operand_1"> </input></div>
-  <div>Second operand:<input id="operand_2"> </input></div>
-  <button id="add_button"> + </button>
-  <button id="sub_button"> - </button>
-  <button id="mul_button"> * </button>
-  <button id="div_button"> / </button>
-  <div>Result: <span id="result"> </span></div>
-
-  <h2> History </h2>
-  <button id="show_button"> SHOW </button>
-  <button id="hide_button"> HIDE </button>
-  <button id="clear_button"> CLEAR</button>
-  <div id="history"> </div>
-
-
-
-
-</body>
-
+    </body>
+    
 </html>
